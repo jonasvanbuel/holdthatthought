@@ -1,0 +1,27 @@
+<div class="login-page-container d-flex justify-content-center align-items-center">
+
+  <div class="login-card-container">
+
+    <h4>Logging you in...</h4>
+
+    <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+      <div class="form-inputs">
+        <%= f.input :email,
+                    label: 'Email:',
+                    required: true,
+                    autofocus: true,
+                    input_html: { autocomplete: "email" } %>
+        <%= f.input :password,
+                    label: 'Password:',
+                    required: true,
+                    input_html: { autocomplete: "current-password" } %>
+      </div>
+
+      <div class="form-actions">
+        <%= f.button :submit, "Log in", class: 'btn btn-ghost' %>
+      </div>
+    <% end %>
+
+  </div>
+
+</div>

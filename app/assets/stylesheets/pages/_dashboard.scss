@@ -1,0 +1,77 @@
+.dashboard-page-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 239, 239, 1.00);
+}
+
+.dashboard-container {
+  width: 800px;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+.download-button {
+text-align: right;
+margin-top: 20px;
+}
+
+.learning-topics-container,
+.blacklisted-websites-container {
+}
+
+.learning-topic-card,
+.blacklist-card {
+  background-color: white;
+  height: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 10px;
+
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 18px;
+  box-shadow: 3px 4px 8px rgba(188, 207, 255, 0.5);
+}
+
+.fas {
+  line-height: inherit;
+}
+
+.fa-minus-circle {
+  height: 24px;
+  color: rgba(25, 41, 101, 1.00);
+}
+
+.fa-minus-circle:hover {
+  cursor: pointer;
+}
+
+.dashboard-btn-container {
+  height: 32px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.fa-plus-circle {
+  color: white;
+  height: 24px;
+  margin-left: 16px;
+}
+
+.dashboard-btn-container > .btn-ghost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+

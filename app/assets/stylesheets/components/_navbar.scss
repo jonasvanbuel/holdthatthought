@@ -1,0 +1,61 @@
+.navbar {
+  justify-content: space-between;
+  background-color: white;
+  z-index: 10000;
+  position: fixed;
+  width: 100vw;
+  height: 60px;
+  box-shadow: 0px 4px 30px rgba(25, 41, 101, 0.2);
+  padding: 8px 48px;
+}
+
+// Logo top left
+#navbarSupportedContent {
+  padding: 0;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.nav-item,
+.nav-link,
+.active {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: normal;
+  color: #192965;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  border-radius: 8px;
+  border: 1px solid rgba(25, 41, 101, 0.4);
+}
+
+.avatar {
+  cursor: pointer;
+  height: 34px;
+  width: 34px;
+  margin: 3px 3px;
+}
+
+.avatar:hover {
+  box-shadow: 3px 4px 8px rgba(188, 207, 255, 1.00);
+}
+
+.dropdown-item {
+  font-size: 14px;
+  color: #192965;
+}
+
+a:hover {
+  color: #bccfff;
+}
+.nav-link a {
+color: #192965;
+}

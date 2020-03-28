@@ -1,0 +1,121 @@
+// whole form
+
+.all-forms {
+  display: flex;
+  padding: 20px;
+  margin-left: 60px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-left: 20px;
+
+}
+
+.title {
+  display: flex;
+  width: 250px;
+}
+
+#title {
+  display: flex;
+  width: 250px;
+}
+
+.img-click {
+  background-color:  #192965 !important;
+  color: white;
+}
+// learning cards
+
+.category-choices {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.category-choice {
+  background: #b7b7b7;
+  padding: 20px;
+  border-radius: 5px;
+  opacity: .4;
+  flex: 0 0 30%;
+  text-align: center;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+}
+
+// blacklist cards
+
+.hidden {
+  display: none;
+}
+
+.blacklist-all {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blacklist-choices {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.blacklist-card {
+  display: flex;
+  overflow: hidden;
+  height: 120px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  width: 400px;
+
+  // &:hover {
+  //   background-color: #f4f2f2;
+  //   opacity: 1;
+  //   cursor: pointer;
+  // }
+
+  // &:active {
+  // color: white;
+  // opacity: 1;
+  // }
+}
+
+.blacklist-card img {
+  padding: 15px;
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.blacklist-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.blacklist-infos {
+  padding: 16px;
+}

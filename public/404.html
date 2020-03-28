@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Computer says no...</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet">
+    <style>
+      .html {
+        background-color: white;
+        font-family: Bellota;
+        font-size: 50px;
+        color: #192965;
+        overflow: hidden;
+        height: 100%;
+        user-select: none;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        margin: 100px;
+      }
+      .btn-ghost {
+        color: white;
+        font-size: 30px;
+        background-color: #192965;
+        padding: 8px 24px;
+        border-radius: 50px;
+        text-decoration: none;
+      }
+      .btn-ghost:hover {
+        background-color: #faafff;
+        color: white;
+        transform: translate(-2px, -1px);
+      }
+    </style>
+  </head>
+
+  <body class="html">
+    <!-- This file lives in public/404.html -->
+    <div class="container">
+      <div>
+        <img src="https://media.giphy.com/media/Jf8tQksLHhpXa/giphy.gif">
+      </div>
+      <div>
+        <p>Unfortunately you have encountered an error.</p>
+      </div>
+      <div>
+        <a href="/" class="btn btn-ghost">Go Home</a>
+      </div>
+    </div>
+  </body>
+</html>
